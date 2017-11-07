@@ -15,6 +15,8 @@
 		63114A0C1FB03107003D44A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63114A0A1FB03107003D44A3 /* LaunchScreen.storyboard */; };
 		63114A171FB03108003D44A3 /* BarcodeSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63114A161FB03108003D44A3 /* BarcodeSampleTests.swift */; };
 		63114A221FB03108003D44A3 /* BarcodeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63114A211FB03108003D44A3 /* BarcodeSampleUITests.swift */; };
+		63114A301FB0322F003D44A3 /* Barcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63114A2F1FB0322F003D44A3 /* Barcode.swift */; };
+		63114A321FB03BA6003D44A3 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63114A311FB03BA6003D44A3 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		63114A1D1FB03108003D44A3 /* BarcodeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63114A211FB03108003D44A3 /* BarcodeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeSampleUITests.swift; sourceTree = "<group>"; };
 		63114A231FB03108003D44A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63114A2F1FB0322F003D44A3 /* Barcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode.swift; sourceTree = "<group>"; };
+		63114A311FB03BA6003D44A3 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				631149FF1FB03107003D44A3 /* AppDelegate.swift */,
 				63114A011FB03107003D44A3 /* MasterViewController.swift */,
 				63114A031FB03107003D44A3 /* DetailViewController.swift */,
+				63114A311FB03BA6003D44A3 /* InputViewController.swift */,
+				63114A2F1FB0322F003D44A3 /* Barcode.swift */,
 				63114A051FB03107003D44A3 /* Main.storyboard */,
 				63114A081FB03107003D44A3 /* Assets.xcassets */,
 				63114A0A1FB03107003D44A3 /* LaunchScreen.storyboard */,
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63114A301FB0322F003D44A3 /* Barcode.swift in Sources */,
+				63114A321FB03BA6003D44A3 /* InputViewController.swift in Sources */,
 				63114A041FB03107003D44A3 /* DetailViewController.swift in Sources */,
 				63114A021FB03107003D44A3 /* MasterViewController.swift in Sources */,
 				63114A001FB03107003D44A3 /* AppDelegate.swift in Sources */,
